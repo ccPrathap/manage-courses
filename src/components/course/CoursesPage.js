@@ -32,7 +32,7 @@ class CoursesPage extends Component {
     return (
       <div>
         <h1>Courses</h1>
-        {this.props.courses.map(this.coursesRow)}
+        {this.props.courseList.map(this.coursesRow)}
         <h2>Add Course</h2>
         <input type="text"
                value={this.state.course.title}
@@ -47,12 +47,12 @@ class CoursesPage extends Component {
 
 CoursesPage.propTypes = {
   dispatch: PropTypes.func.isRequired,
-  courses: PropTypes.array.isRequired
+  courseList: PropTypes.array.isRequired
 };
 
 function mapState(state, ownProps) {
   return {
-    courses: state.courses
+    courseList: state.courses
   }
 }
 
