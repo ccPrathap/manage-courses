@@ -6,12 +6,26 @@ import * as courseActions from '../../actions/courseActions';
 import CourseList from './CourseList';
 
 class CoursesPage extends Component {
+  constructor(props) {
+    super(props);
+
+    this.redirectToAddCourse = this.redirectToAddCourse.bind(this)
+  }
+  
+  redirectToAddCourse() {
+    this.props.history.push('/course');
+  }
 
   render() {
     const {courseListdata} = this.props;
     return (
       <div>
         <h1>Courses</h1>
+        <input
+          type="submit"
+          value="Add Course"
+          className="btn btn-primary"
+          onClick={this.redirectToAddCourse} />
         <CourseList courses={courseListdata} />
       </div>
     );

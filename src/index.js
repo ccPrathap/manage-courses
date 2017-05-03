@@ -7,11 +7,14 @@ import configureStore from './store/configureStore';
 import { Provider } from 'react-redux';
 import './assets/styles.css';
 import {loadCourses} from './actions/courseActions';
+import {loadAuthors} from './actions/authorActions';
 import routes from './routes';
 import App from './components/App';
 
 const store = configureStore();
+
 store.dispatch(loadCourses());
+store.dispatch(loadAuthors());
 
 ReactDOM.render(
   <Provider store={store}>

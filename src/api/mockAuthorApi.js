@@ -1,3 +1,4 @@
+/* eslint-disable */
 import delay from './delay';
 
 // This file mocks a web API by working with the hard-coded data below.
