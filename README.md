@@ -1,4 +1,21 @@
-## CircleCI [![CircleCI](https://circleci.com/gh/ccPrathap/manage-courses.svg?style=svg)](https://circleci.com/gh/ccPrathap/manage-courses)
+# Manage Courses App
+
+## CircleCI
+
+[![CircleCI](https://circleci.com/gh/ccPrathap/manage-courses.svg?style=svg)](https://circleci.com/gh/ccPrathap/manage-courses)
+
+## Heroku
+Live application link [here](https://react-manage-courses-app.herokuapp.com/)
+
+#### Getting up and running:
+- Clone this repo
+- `npm nstall`
+- `npm start`
+
+#### Testing
+- `npm test`
+
+----
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
