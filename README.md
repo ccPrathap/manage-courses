@@ -9,7 +9,7 @@ Live application link [here](https://react-manage-courses-app.herokuapp.com/)
 
 #### Getting up and running:
 - Clone this repo
-- `npm nstall`
+- `npm install`
 - `npm start`
 
 #### Testing
