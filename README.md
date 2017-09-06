@@ -1,8 +1,8 @@
 # Manage Courses App
 
-## CircleCI
+## CI-Build Status
 
-[![CircleCI](https://circleci.com/gh/ccPrathap/manage-courses.svg?style=svg)](https://circleci.com/gh/ccPrathap/manage-courses)
+[![CircleCI](https://circleci.com/gh/ccPrathap/manage-courses.svg?style=svg)](https://circleci.com/gh/ccPrathap/manage-courses) [![Build Status](https://travis-ci.org/ccPrathap/manage-courses.svg?branch=master)](https://travis-ci.org/ccPrathap/manage-courses)
 
 ## Heroku
 Live application link [here](https://react-manage-courses-app.herokuapp.com/)
